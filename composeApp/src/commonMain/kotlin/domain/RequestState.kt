@@ -1,4 +1,4 @@
-package org.dilip.cmmnotes.domain
+package domain
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
