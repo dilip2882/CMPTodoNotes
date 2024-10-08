@@ -50,6 +50,10 @@ kotlin {
             implementation(libs.navigator.koin)
             implementation(libs.koin.core)
 
+            implementation(libs.mongodb.realm)
+            implementation(libs.kotlin.coroutines)
+            implementation(libs.stately.common)
+
         }
     }
 }
