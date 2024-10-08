@@ -1,4 +1,4 @@
-package com.dilip.todo
+package com.dilip.todonotes
 
 import App
 import android.os.Bundle

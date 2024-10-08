@@ -5,7 +5,6 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.graphics.Color
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.transitions.SlideTransition
 import data.MongoDB
@@ -15,9 +14,11 @@ import org.koin.dsl.module
 import presentation.screen.home.HomeScreen
 import presentation.screen.home.HomeViewModel
 import presentation.screen.task.TaskViewModel
+import ui.theme.primaryDark
+import ui.theme.primaryLight
 
-val lightRedColor = Color(color = 0xFFF57D88)
-val darkRedColor = Color(color = 0xFF77000B)
+val lightRedColor = primaryLight
+val darkRedColor = primaryDark
 
 @Composable
 @Preview
